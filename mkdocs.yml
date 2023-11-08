@@ -1,10 +1,10 @@
 # 网站信息
 site_name: 模板   #
-site_url: https://eanyang7.github.io/xxx  # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
-site_description: "xxx"   #
+site_url: https://eanyang7.github.io/mkdocs_Template  # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/mkdocs_Template/
+site_description: "mkdocs_Template"   #
 site_author: Ean Yang 
 # 仓库
-repo_url: https://github.com/EanYang7/xxx   #
+repo_url: https://github.com/EanYang7/mkdocs_Template   #
 repo_name: 模板库   #
  
 theme:
