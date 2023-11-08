@@ -11,9 +11,9 @@ theme:
   name: material
   language: zh
   # 网站logo
-  logo: assets/logo.png #
+  logo: assets/logo.jpg #
   # 网站favicon
-  favicon: assets/favicon.ico #
+  favicon: assets/favicon.jpg #
   # 设置右上角图标
   icon:
     repo: fontawesome/brands/github-alt
