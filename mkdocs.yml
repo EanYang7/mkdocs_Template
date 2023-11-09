@@ -1,12 +1,12 @@
 # 网站信息
-site_name: 模板   #
-site_url: https://eanyang7.github.io/mkdocs_Template  # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
-site_description: "mkdocs_Template"   #
-site_author: Ean Yang 
+site_name: 模板 #
+site_url: https://eanyang7.github.io/mkdocs_Template # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
+site_description: "mkdocs_Template" #
+site_author: Ean Yang
 # 仓库
-repo_url: https://github.com/EanYang7/mkdocs_Template   #
-repo_name: github仓库   
- 
+repo_url: https://github.com/EanYang7/mkdocs_Template #
+repo_name: github仓库
+
 theme:
   name: material
   language: zh
@@ -17,10 +17,10 @@ theme:
   # 设置右上角图标
   icon:
     repo: fontawesome/brands/github-alt
-    edit: material/pencil 
+    edit: material/pencil
     view: material/eye
   palette:
-  # 可选颜色见https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+    # 可选颜色见https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
     # 切换为暗黑模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -38,7 +38,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: 切换为浅色模式
-# 导航设置
+  # 导航设置
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -47,10 +47,10 @@ theme:
     # - navigation.tabs.sticky #选项卡固定，滚动时还可见
     # - navigation.sections #章节视图，可以和tabs搭配使用
     - navigation.expand #展开侧边栏
-    - navigation.prune  
+    - navigation.prune
     - navigation.indexes # 点击文件夹显示index.md的内容
     - navigation.top # 回到顶部
-    - toc.follow  # 目录跟随
+    - toc.follow # 目录跟随
     - header.autohide # 滚动时隐藏顶部
     - navigation.footer # 底部导航，上下页
     - search.suggest # 搜索建议
@@ -59,14 +59,15 @@ theme:
     # 编辑和查看源码
     - content.action.edit
     - content.action.view
+    - content.code.copy
 # 编辑链接
-edit_uri: "tree/main/docs/" 
+edit_uri: "tree/main/docs/"
 extra:
   generator: false
-# 社交链接
+  # 社交链接
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YQisme 
+      link: https://github.com/YQisme
       name: github主页
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/244185393?spm_id_from=333.788.0.0
@@ -80,7 +81,7 @@ copyright: Copyright &copy; 2023 Ean Yang
 plugins:
   - search
   - git-revision-date-localized:
-     enable_creation_date: true
+      enable_creation_date: true
 
 markdown_extensions:
   - toc:
@@ -93,4 +94,3 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.details
-    
