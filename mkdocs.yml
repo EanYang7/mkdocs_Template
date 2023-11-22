@@ -48,7 +48,7 @@ theme:
     # - navigation.sections #章节视图，可以和tabs搭配使用
     - navigation.expand #展开侧边栏
     - navigation.prune
-    - navigation.indexes # 点击文件夹显示index.md的内容
+    # - navigation.indexes # 点击文件夹显示index.md的内容
     - navigation.top # 回到顶部
     - toc.follow # 目录跟随
     - header.autohide # 滚动时隐藏顶部
