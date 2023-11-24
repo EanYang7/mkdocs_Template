@@ -79,7 +79,8 @@ extra:
 copyright: Copyright &copy; 2023 Ean Yang
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - git-revision-date-localized:
       enable_creation_date: true
   # - mkdocs-jupyter:
