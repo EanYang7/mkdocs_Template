@@ -79,6 +79,7 @@ extra:
 copyright: Copyright &copy; 2023 Ean Yang
 
 plugins:
+  # 放大图片
   - glightbox
   - search:
       separator: '[\s\u200b\-]'
